@@ -3,6 +3,7 @@
 > Your thoughts, your device, your AI. Nothing ever leaves your laptop.
 
 **🔗 Live Demo:** [https://privacy-journal-delta.vercel.app/](https://privacy-journal-delta.vercel.app/)
+
 *(Note: writing entries and viewing your mood chart works fully on the live link. The AI "Reflect" feature only works when you run the project locally — explained in detail below, this is intentional, not a bug!)*
 
 ![Hero Screenshot](./screenshots/Home.png)
