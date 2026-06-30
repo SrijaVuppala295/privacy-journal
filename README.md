@@ -1,12 +1,39 @@
 # 🔒 Quiet — A Privacy-First AI Journal
 
-> Your thoughts, your device, your AI. Nothing ever leaves your laptop.
+> **Think freely. Reflect deeply. Stay private.**
 
-**🔗 Live Demo:** [https://privacy-journal-delta.vercel.app/](https://privacy-journal-delta.vercel.app/)
+Quiet is a modern **privacy-first AI journaling application** that helps you capture your thoughts, understand your emotions, and reflect on your day—all while keeping your data entirely on your own device.
 
-*(Note: writing entries and viewing your mood chart works fully on the live link. The AI "Reflect" feature only works when you run the project locally — explained in detail below, this is intentional, not a bug!)*
+Unlike traditional AI applications, **your journal entries never leave your laptop**. Quiet combines local storage, an embedded SQLite database, and a locally running Large Language Model (LLM) to provide intelligent reflections without sacrificing privacy.
 
-![Home Screen](./Home.png)
+---
+
+### 🚀 Built With
+
+![Next.js](https://img.shields.io/badge/Next.js-16-000000?style=for-the-badge&logo=next.js)
+![React](https://img.shields.io/badge/React-19-20232A?style=for-the-badge&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-v4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-WebAssembly-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-Local_AI-000000?style=for-the-badge)
+![Llama 3.2](https://img.shields.io/badge/Llama_3.2-1B-purple?style=for-the-badge)
+![Recharts](https://img.shields.io/badge/Recharts-Charts-FF6384?style=for-the-badge)
+
+---
+
+🌐 **Live Demo:** https://privacy-journal-delta.vercel.app/
+
+> **⚠️ Important**
+>
+> The live demo showcases the complete journaling experience, including creating entries, editing them, and viewing mood analytics.
+>
+> The **AI Reflection** feature is intentionally available **only when running the project locally**. This is because Quiet is designed around a **privacy-first architecture**, where AI processing happens entirely on your machine using **Ollama** and **Llama 3.2**, ensuring your personal journal entries are never sent to external servers.
+
+---
+
+<p align="center">
+  <img src="./public/screenshots/Home.png" alt="Home Screen" width="900">
+</p>
 
 ---
 
@@ -883,15 +910,15 @@ git push -u origin main
 
 ---
 
-## 12. Screenshots
+## 📸 Screenshots
 
-| Landing Page | Journal View | Mood Reflection |
-|---|---|---|
-| ![Landing](./screenshots/Home.png) | ![Journal](./screenshots/Journal.png) | ![Reflection](./screenshots/Reflection.png) |
+| Landing Page | Journal View |
+|--------------|--------------|
+| <img src="public/screenshots/Home.png" width="450"/> | <img src="public/screenshots/Journal.png" width="450"/> |
 
-| Mood Trend Chart |
-|---|
-| ![Graph](./screenshots/Graph.png) |
+| AI Reflection | Mood Trend Chart |
+|---------------|------------------|
+| <img src="public/screenshots/Reflection.png" width="450"/> | <img src="public/screenshots/Graph.png" width="450"/> |
 
 ---
 
